@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+
+
+
+.mainbox{
+margin: auto 0;
+background-color: lightgray;
+height: 100vh;
+color: rgb(61, 61, 186);
+width: 100%;
+border-radius: 10px;
+}
+
+
+
+
+
+
+h1{
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
+   text-align: center;
+   font-size: 45px;
+
+}
+
+
+.form-part{
+    background-color: rgba(255, 255, 255, 0.516);
+    width: 32%;
+    height: 70vh;
+    margin: 0 auto ;
+    color: rgb(208, 195, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+
+}
+
+input,select{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border-radius: 5px;
+
+    } 
+
+
+
+    .btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px}
+
+
+    .btn input[type="button"] {
+        width: 50%;
+        padding: 10px 20px;
+        background-color: blue;
+        color: white;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    
+
+    .name{
+display: flex;
+        width: 100%;
+        
+    }
+
+
+    .acc{
+        text-align: center;
+        margin-bottom: 20px;
+        color: rgb(13, 6, 76);
+    }
+
